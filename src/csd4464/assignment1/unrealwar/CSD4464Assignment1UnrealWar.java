@@ -19,7 +19,9 @@ public class CSD4464Assignment1UnrealWar {
     }
 
     public static String stringPower(String str, int i) {
-       
+        if ( i < 1){
+            return null;
+        }
 
         String s = "";
 
