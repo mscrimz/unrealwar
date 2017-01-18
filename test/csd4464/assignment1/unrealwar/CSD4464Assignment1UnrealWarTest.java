@@ -45,9 +45,29 @@ public class CSD4464Assignment1UnrealWarTest {
     public void testEmptyStringShouldReturnEmptyString() {
         System.out.println("stringPower");
         String str = "";
-        int i = 0;
+        int i = 2;
         String expResult = "";
         String result = CSD4464Assignment1UnrealWar.stringPower(str, i);
         assertEquals(expResult, result);
     }
-}
+    @Test
+    public void testLessThanOneShouldReturnNull() {
+        System.out.println("stringPower");
+        String str = "";
+        int i = 0;
+        String expResult = null;
+        String result = CSD4464Assignment1UnrealWar.stringPower(str, i);
+        assertEquals(expResult, result);
+    }
+    @Test
+    public void testStringAndOneShouldReturnString() {
+        System.out.println("stringPower");
+        String str = "abc";
+        int i = 1;
+        String expResult = str;
+        String result = CSD4464Assignment1UnrealWar.stringPower(str, i);
+        assertEquals(expResult, result);
+    }
+    
+       }
+
