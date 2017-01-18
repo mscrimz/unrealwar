@@ -69,5 +69,17 @@ public class CSD4464Assignment1UnrealWarTest {
         assertEquals(expResult, result);
     }
     
+    @Test
+    public void testStringAndTwoShouldReturnStringDoubled() {
+        System.out.println("stringPower");
+        String str = "abc";
+        int i = 2;
+        String expResult = "abcabc";
+        String result = CSD4464Assignment1UnrealWar.stringPower(str, i);
+        assertEquals(expResult, result);
+    }
+    
+    
+    
        }
 
