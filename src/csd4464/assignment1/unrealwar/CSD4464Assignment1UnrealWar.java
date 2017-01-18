@@ -29,7 +29,7 @@ public class CSD4464Assignment1UnrealWar {
             s = s + str;
         }
 
-        return "";
+        return str;
 
     }
 
