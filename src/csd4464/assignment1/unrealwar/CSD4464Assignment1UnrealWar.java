@@ -17,19 +17,20 @@ public class CSD4464Assignment1UnrealWar {
     public static void main(String[] args) {
         // TODO code application logic here
     }
-    
-    public static String stringPower(String str, int i)
-    { 
-        if(i < 1){
-        return null;
+
+    public static String stringPower(String str, int i) {
+        if (i < 1) {
+            return null;
         }
-        
-       
-        
-        
-        
-        return str;
-        
+
+        String s = "";
+
+        for (int x = 0; x < i; x++) {
+            s = s + str;
+        }
+
+        return s;
+
     }
-    
+
 }
